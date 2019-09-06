@@ -26,6 +26,6 @@ export class AppComponent implements OnInit {
 
   findAllMoviesSort(){
     this.moviesLijstSort = this.moviesservice.getAllMovies();
-    this.moviesLijstSort.sort((a, b) => a.film - b.film ? 1 : -1);
+    this.moviesLijstSort.sort((a, b) => a.film > b.film ? 1 : -1);
   }
 }
