@@ -1,0 +1,28 @@
+[{
+    "film": "The Godfather",
+    "acteurs": ["Al Pacino" , "Marlon Brando", "Robert Duvall"]
+},
+{
+    "film": "Schindler's List",
+    "acteurs": ["Liam Neeson", "Ralph Fiennes", "Ben Kingsley"]
+},
+{
+    "film": "Saving Private",
+    "acteurs": ["Ryan Tom Hanks", "Matt Damon", "Vin Diesel"]
+},
+{
+    "film": "Back to the Future",
+    "acteurs": ["Michael J. Fox", "Christopher Lloyd", "Lea Thompson"]
+},
+{
+    "film": "Casablanca",
+    "acteurs": ["Ingrid Bergman", "Humphrey Bogart", "Peter Lorre"]
+},
+{
+    "film": "The Big Lebowski",
+    "acteurs": ["Julianne Moore", "Jeff Bridges", "Tara Reid"]
+},{
+    "film": "Lost in translation",
+    "acteurs": ["Bill Murray", "Scarlett Johansson"]
+}
+]

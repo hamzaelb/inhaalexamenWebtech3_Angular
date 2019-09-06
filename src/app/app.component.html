@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+<h1>Hamza El Bahri</h1>
+  <h1>Movies</h1>
+  
+  <div>
+    Naam: <input type="text" [(ngModel)]="film"><br><br>
+    <input type="submit" value="Find" (click)="findMoviesNaam()"><br><br>
+    <h3 *ngFor="let item of moviesLijstNaam;">
+      Acteurs: {{item.acteurs}}<br>
+    </h3>
+    </div>
+
+<div>
+    <input type="submit" value="Find sorted" (click)="findAllMoviesSort()"><br><br>
+    <h3 *ngFor="let item of moviesLijstSort;">
+      Film: {{item.film}}<br>
+      Acteurs:  {{item.acteurs}}<br>
+      </h3>
+    </div>
+
+
+
+</div>
+<router-outlet></router-outlet>
